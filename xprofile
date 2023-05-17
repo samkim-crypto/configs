@@ -1,0 +1,12 @@
+xcape -e 'Control_L=Escape'
+xset r rate 200 70
+
+~/.fehbg &
+unclutter &
+
+/* ibus-daemon -drx */
+
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+fcitx5 &
